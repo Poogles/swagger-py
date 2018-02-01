@@ -13,7 +13,7 @@ from setuptools import setup
 
 setup(
     name="swaggerpython",
-    version="0.2.2",
+    version="0.2.3",
     license="BSD 3-Clause License",
     description="Library for accessing Swagger-enabled API's",
     long_description=open(os.path.join(os.path.dirname(__file__),
