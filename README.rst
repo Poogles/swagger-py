@@ -1,3 +1,9 @@
+Swagger Python
+--------------
+
+This is an update of swaggerpy, with Python3 support and a few fixes.
+
+
 About
 -----
 
