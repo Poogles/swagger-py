@@ -1,7 +1,7 @@
 Swagger Python
 --------------
 
-This is an update of swaggerpy, with Python3 support and a few fixes.
+This is an update of swaggerpython, with Python3 support and a few fixes.
 
 
 About
@@ -30,7 +30,7 @@ Install the latest release from PyPI.
 
 ::
 
-    $ sudo pip install swaggerpy
+    $ sudo pip install swaggerpython
 
 Or install from source using the ``setup.py`` script.
 
@@ -53,8 +53,8 @@ Interface <https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+ARI>`__
 
     import json
 
-    from swaggerpy.client import SwaggerClient
-    from swaggerpy.http_client import SynchronousHttpClient
+    from swaggerpython.client import SwaggerClient
+    from swaggerpython.http_client import SynchronousHttpClient
 
     http_client = SynchronousHttpClient()
     http_client.set_basic_auth('localhost', 'hey', 'peekaboo')

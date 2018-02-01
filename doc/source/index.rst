@@ -11,8 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   swaggerpy
-   swaggerpy.client
+   swaggerpython
+   swaggerpython.client
 
 Indices and tables
 ==================

@@ -4,7 +4,7 @@ client Package
 :mod:`client` Package
 ---------------------
 
-.. automodule:: swaggerpy.client
+.. automodule:: swaggerpython.client
     :members:
     :undoc-members:
     :show-inheritance:
@@ -12,7 +12,7 @@ client Package
 :mod:`client` Module
 --------------------
 
-.. automodule:: swaggerpy.client.client
+.. automodule:: swaggerpython.client.client
     :members:
     :undoc-members:
     :show-inheritance:

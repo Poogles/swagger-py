@@ -12,7 +12,7 @@ import os
 from setuptools import setup
 
 setup(
-    name="swaggerpy",
+    name="swaggerpython",
     version="0.2.2",
     license="BSD 3-Clause License",
     description="Library for accessing Swagger-enabled API's",
@@ -21,7 +21,7 @@ setup(
     author="Digium, Inc and Infectious Media",
     author_email="sre@infectiousmedia.com",
     url="https://github.com/poogles/swagger-python",
-    packages=["swaggerpy"],
+    packages=["swaggerpython"],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
@@ -34,6 +34,6 @@ setup(
     install_requires=["requests", "websocket-client", "six", "httpretty"],
     entry_points="""
     [console_scripts]
-    swagger-codegen = swaggerpy.codegen:main
+    swagger-codegen = swaggerpython.codegen:main
     """
 )

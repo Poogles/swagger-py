@@ -1,0 +1,5 @@
+{
+  "tests/client_test.py": true,
+  "tests/http_client_test.py": true,
+  "tests/loader_test.py": true
+}

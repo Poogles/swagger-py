@@ -1,10 +1,10 @@
-swaggerpy Package
+swaggerpython Package
 =================
 
-:mod:`swaggerpy` Package
+:mod:`swaggerpython` Package
 ------------------------
 
-.. automodule:: swaggerpy.__init__
+.. automodule:: swaggerpython.__init__
     :members:
     :undoc-members:
     :show-inheritance:
@@ -12,7 +12,7 @@ swaggerpy Package
 :mod:`codegen` Module
 ---------------------
 
-.. automodule:: swaggerpy.codegen
+.. automodule:: swaggerpython.codegen
     :members:
     :undoc-members:
     :show-inheritance:
@@ -20,7 +20,7 @@ swaggerpy Package
 :mod:`processors` Module
 ------------------------
 
-.. automodule:: swaggerpy.processors
+.. automodule:: swaggerpython.processors
     :members:
     :undoc-members:
     :show-inheritance:
@@ -28,7 +28,7 @@ swaggerpy Package
 :mod:`swagger_model` Module
 ---------------------------
 
-.. automodule:: swaggerpy.swagger_model
+.. automodule:: swaggerpython.swagger_model
     :members:
     :undoc-members:
     :show-inheritance:
@@ -38,5 +38,5 @@ Subpackages
 
 .. toctree::
 
-    swaggerpy.client
+    swaggerpython.client
 
