@@ -18,9 +18,9 @@ setup(
     description="Library for accessing Swagger-enabled API's",
     long_description=open(os.path.join(os.path.dirname(__file__),
                                        "README.rst")).read(),
-    author="Digium, Inc.",
-    author_email="dlee@digium.com",
-    url="https://github.com/digium/swagger-py",
+    author="Digium, Inc and Infectious Media",
+    author_email="sre@infectiousmedia.com",
+    url="https://github.com/poogles/swagger-python",
     packages=["swaggerpy"],
     classifiers=[
         "Development Status :: 1 - Planning",
@@ -31,7 +31,7 @@ setup(
         "Programming Language :: Python",
     ],
     tests_require=["nose", "tissue", "coverage", "httpretty"],
-    install_requires=["requests", "websocket-client", "six"],
+    install_requires=["requests", "websocket-client", "six", "httpretty"],
     entry_points="""
     [console_scripts]
     swagger-codegen = swaggerpy.codegen:main
