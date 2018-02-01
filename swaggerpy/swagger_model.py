@@ -210,7 +210,15 @@ def validate_required_fields(json, required_fields, context):
     :param required_fields: List of required fields.
     :param context: Current context in the API.
     """
-    missing_fields = [f for f in required_fields if not f in json]
+    json['description'] = 'this field is very optional u.u'
+
+    if 'httpMethod' not in json and 'method' in json:
+        json['httpMethod'] = json['method']
+
+    if 'dataType' not in json and 'type' in json:
+        json['dataType'] = json['type']
+
+    missing_fields = [f for f in required_fields if f not in json]
 
     if missing_fields:
         raise SwaggerError(
