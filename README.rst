@@ -3,6 +3,7 @@ Swagger Python
 
 This is an update of swaggerpython, with Python3 support and a few fixes.
 
+PRs and issues welcome.
 
 About
 -----
@@ -26,7 +27,7 @@ be documented, and auto-generated WebSocket client code.
 Usage
 -----
 
-Install the latest release from PyPI.
+Install the latest release from PyPI.  This is our forked version.
 
 ::
 
@@ -144,6 +145,11 @@ the code coverage report. HTML versions of the reports are put in
     $ ./setup.py nosetests # run unit tests
     $ ./setup.py bdist_egg # build distributable
 
+
+TODO
+----
+
+mypy?
 
 
 License
